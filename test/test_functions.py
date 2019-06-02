@@ -11,7 +11,7 @@ def test_with_patch():
             'https://python.org/',
         )
     assert result == 'b', \
-        'most_common_word_in_web_page tested with test double'
+        'most_common_word_in_web_page tested with test double huh'
     assert mock_requests.get.call_count == 1
     assert mock_requests.get.call_args[0][0] \
             == 'https://python.org/', 'called with right URL'
