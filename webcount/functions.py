@@ -12,7 +12,7 @@ def most_common_word_in_web_page(words, url):
 def most_common_word(words, text):
     """
     finds the most common word from a list of words
-    in a piece of text. ewewewe
+    in a piece of text. ewewewejvgj
     """
     word_frequency = {w: text.count(w) for w in words}
     return sorted(words, key=word_frequency.get)[-1]
